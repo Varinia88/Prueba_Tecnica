@@ -5,7 +5,7 @@ describe('Wiki Test', () => {
 
   it('Wikipedia search', () => {
       cy.visit('https://www.google.es/');
-      cy.get('#L2AGLb').click();
+      //cy.get('#L2AGLb').click();
       cy.get('#APjFqb').type(textToSearch);
       cy.get('.aajZCb > .lJ9FBc > center > .gNO89b').click();
       //cy.get(':nth-child(3) > .g > .N54PNb > .jGGQ5e > .yuRUbf > :nth-child(1) > [jscontroller="msmzHf"] > a > .LC20lb').click();
